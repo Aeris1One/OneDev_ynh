@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://code.onedev.io/downloads/projects/onedev-server/builds/1348/artifacts/onedev-4.2.5.zip
+SOURCE_SUM=2073496b434f2ae1fbf14291f3fca8bb2d9a70b81bb11d6a76fc3bd32244573f
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
+SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
 SOURCE_EXTRACT=true
