@@ -1,11 +1,11 @@
 [Unit]
-Description=__APP_NAME__
+Description=__NAME__
 After=syslog.target
 
 [Service]
 Type=forking
-ExecStart=__APP_ROOT_/bin/server.sh start sysd
-ExecStop=__APP_ROOT__/bin/server.sh stop sysd
+ExecStart=__FINALPATH__/bin/server.sh start sysd
+ExecStop=__FINALPATH__/bin/server.sh stop sysd
 KillMode=control-group
 Environment=SYSTEMD_KILLMODE_WARNING=true
 
